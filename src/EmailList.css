@@ -13,3 +13,7 @@
     padding-right: 10px;
 
 }
+.emailList__sections{
+    display: flex;
+    
+}
