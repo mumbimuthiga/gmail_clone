@@ -14,11 +14,7 @@ function EmailList() {
           <IconButton>
             <ArrowDropDown></ArrowDropDown>
           </IconButton>
-         
-
-        
-
-          <IconButton>
+         <IconButton>
             <Redo></Redo>
           </IconButton>
 
@@ -58,11 +54,34 @@ function EmailList() {
          title="Twitch"
          subject="Meeting"
          description="This is a description"
-         time="10pm"
-         
-         >
+         time="10pm"></EmailRow>
 
-         </EmailRow>
+        <EmailRow
+         title="Twitch"
+         subject="Meeting"
+         description="This is a description"
+         time="10pm"></EmailRow>
+
+         <EmailRow
+         title="Twitch"
+         subject="Meeting"
+         description="This is a description"
+         time="10pm"></EmailRow>
+
+<EmailRow
+         title="Twitch"
+         subject="Meeting"
+         description="This is a description"
+         time="10pm"></EmailRow>
+
+<EmailRow
+         title="Twitch"
+         subject="Meeting"
+         description="This is a description
+         This is a description
+         This is a description
+         This is a description"
+         time="10pm"></EmailRow>
 
       </div>
 
