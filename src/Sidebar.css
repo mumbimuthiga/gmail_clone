@@ -13,6 +13,7 @@
     justify-content: center;
 }
 .sidebar{
-    min-width: 300px;
-    padding-right: 10px;
+    max-width: 300px;
+    padding-right: 20px;
+    flex: 0.3;
 }
