@@ -51,33 +51,33 @@ function EmailList() {
 
       <div className='emailList__list'>
          <EmailRow
-         title="Twitch"
+         title="Scammer"
          subject="Meeting"
-         description="This is a description"
+         description="Scammer description ...."
          time="10pm"></EmailRow>
 
         <EmailRow
-         title="Twitch"
+         title="Twitter"
          subject="Meeting"
-         description="This is a description"
+         description="Twitter update"
          time="10pm"></EmailRow>
 
          <EmailRow
-         title="Twitch"
+         title="Facebook"
          subject="Meeting"
-         description="This is a description"
+         description="This is a facebook app"
          time="10pm"></EmailRow>
 
 <EmailRow
-         title="Twitch"
+         title="Zoom"
          subject="Meeting"
-         description="This is a description"
+         description="This is a zoom app"
          time="10pm"></EmailRow>
 
 <EmailRow
-         title="Twitch"
+         title="Meet Up"
          subject="Meeting"
-         description="This is a description
+         description="This is a meet up app
          This is a description
          This is a description
          This is a description"

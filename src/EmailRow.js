@@ -1,13 +1,16 @@
 import React from 'react';
 import './EmailRow.css';
 import { Checkbox ,IconButton } from '@material-ui/core';
-import {useHistory} from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 import { LabelImportant, StarBorderOutlined} from '@material-ui/icons';
 
 function EmailRow({id ,title ,subject ,description,time}) {
-    const history=useHistory();
+    const navigate = useNavigate();
+    
   return (
-    <div onClick={()=>history.push("/Mail")} className='emailRow'>
+    
+    <div onClick={()=>navigate("/Mail")} className='emailRow'>
+        
      <div className='emailRow__options'>
          <Checkbox></Checkbox>
          <IconButton>
