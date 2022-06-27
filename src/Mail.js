@@ -1,5 +1,5 @@
 import { Icon, IconButton } from '@material-ui/core';
-import { ArrowBack, CheckCircle, Delete, Email, Error, ExitToApp, LabelImportant, MoveToInbox, Print, UnfoldMore, WatchLater } from '@material-ui/icons';
+import { ArrowBack, CheckCircle, Delete, Email, Error, ExitToApp, LabelImportant, LabelImportantOutlined, MoveToInbox, Print, UnfoldMore, WatchLater } from '@material-ui/icons';
 import React from 'react'
 import './Mail.css';
 
@@ -49,6 +49,14 @@ function Mail() {
           </IconButton>
 
         </div>
+        </div>
+        <div className='mail__body'>
+          <div className='mail_bodyHeader'>
+            <h2>Subject</h2>
+            <LabelImportantOutlined></LabelImportantOutlined>
+            <p>Sender</p>
+            <p>10pm</p>
+          </div>
         </div>
         </div>
   )
