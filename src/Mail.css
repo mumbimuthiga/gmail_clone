@@ -11,3 +11,11 @@
 .mail__toolsLeft{
     display: flex;
 }
+.mail__body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+}
